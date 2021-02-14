@@ -1,0 +1,46 @@
+<exporter version="1.0">
+     <!-- identifier of the exporter -->
+     <name>bmfont</name>
+ 
+     <!-- display name of the exporter for the combo box -->
+     <displayName>BMFont</displayName>
+     
+     <!-- description of the exporter -->
+     <description>A bitmap font .fnt format exporter</description>
+ 
+     <!-- exporter version -->
+     <version>1.0</version>
+     
+     <!-- currently only one file allowed - more to come with update -->
+     <files>
+         <file>
+             <!-- name of this file variable -->
+             <name>fnt</name>
+ 
+             <!-- human readable name (for GUI) -->
+             <displayName>fnt</displayName>
+ 
+             <!-- file extension for the file -->
+             <fileExtension>fnt</fileExtension>
+ 
+             <!-- name of the template file -->
+             <template>bmfont_template.fnt</template>
+         </file>
+     </files>
+ 
+     <!-- target framework supports trimming -->
+     <supportsTrimming>true</supportsTrimming>
+ 
+     <!-- target framework supports rotated sprites -->
+     <supportsRotation>false</supportsRotation>
+ 
+     <!-- supports npot sizes -->
+     <supportsNPOT>true</supportsNPOT>
+ 
+     <!-- supports file name stripping (remove .png etc) -->
+     <supportsTrimSpriteNames>yes</supportsTrimSpriteNames>
+ 
+     <!-- supports texure subpath -->
+     <supportsTextureSubPath>no</supportsTextureSubPath>
+ 
+ </exporter>

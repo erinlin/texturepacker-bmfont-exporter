@@ -1,5 +1,6 @@
 # Texturepacker bitmap font<.fnt> custom exporter
 
+應開發遊戲需求的小工具，前提是你需要有 Texturepacker App
 To pack multiple named char image into .fnt format.
 
 ## How to use?
